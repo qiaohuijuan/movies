@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: .12rem;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.wrap header {
+  width: 100%;
+  height: 10rem;
+  flex-shrink: 0;
+}
+
+.wrap header .nav {
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.wrap header .nav li {
+  height: 3rem;
+  text-align: center;
+  font-size: 1.6rem;
+  flex: 1;
+  font-weight: 600;
+}
+
+.wrap header .nav .bt {
+  color: #FF9900;
+  border-bottom: .3rem solid #FF9900;
+}
+
+.wrap header .header {
+  width: 100%;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.wrap header .header p {
+  width: 70%;
+  height: 3rem;
+  background: #EEEFF0;
+  text-align: center;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  line-height: 3rem;
+}
+
+.wrap header .header p i {
+  color: #FF9900;
+  padding-left: 6rem;
+}
+
+.wrap header .header p input {
+  height: 3rem;
+  border: 0;
+  outline: 0;
+  background: #EEEFF0;
+  border-radius: 1rem;
+  float: right;
+}
+
+.wrap header .header cite {
+  flex: 1;
+}
+
+.wrap header .header cite i {
+  color: #8C8C8C;
+  font-size: 1.6rem;
+  padding: 0 .8rem;
+}
+
+.wrap section {
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.wrap section .banner {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.wrap section .banner .swiper-slide {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.wrap section .banner .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.wrap section .main {
+  width: 100%;
+}
+
+.wrap section .main h1 {
+  width: 100%;
+  height: 4rem;
+  border-top: .1rem solid #ccc;
+  font-size: 1.6rem;
+  text-indent: 2rem;
+  line-height: 4rem;
+}
+
+.wrap section .main .movie {
+  width: 100%;
+}
+
+.wrap section .main .movie .movielist {
+  width: 100%;
+}
+
+.wrap section .main .movie .movielist li {
+  width: 100%;
+  height: 17rem;
+  display: flex;
+}
+
+.wrap section .main .movie .movielist li dl {
+  flex: 1;
+  height: 100%;
+}
+
+.wrap section .main .movie .movielist li dl dt {
+  height: auto;
+}
+
+.wrap section .main .movie .movielist li dl dt img {
+  width: 100%;
+  height: auto;
+}
+
+.wrap section .main .movie .movielist li dl dd {
+  flex: 1;
+  text-indent: 1rem;
+}
+
+.wrap section .main .movie .movielist li dl dd span {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.wrap section .main .movie .movielist li dl dd p {
+  color: #B6B6B6;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.wrap footer {
+  width: 100%;
+  border-top: .1rem solid #ccc;
+  flex-shrink: 0;
+}
+
+.wrap footer .footer {
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.wrap footer .footer li {
+  flex: 1;
+  text-align: center;
+  color: #676767;
+}
+
+.wrap footer .footer li i {
+  display: block;
+}
+
+.wrap footer .footer .bg {
+  color: #EE8632;
+}
